@@ -1,0 +1,23 @@
+source 'git@github.com:NeoWorldTeam/ComeSocialSpecs.git'
+source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
+
+use_frameworks!
+
+platform :ios, '13.0'
+
+target 'AuthManagerKit_Example' do
+  pod 'AuthManagerKit', :path => '../'
+
+  target 'AuthManagerKit_Tests' do
+    inherit! :search_paths
+
+    pod 'CSBaseView', :git => 'git@github.com:NeoWorldTeam/CSBaseView.git', :branch=>'main'
+    pod 'CSNetwork', :git => 'git@github.com:NeoWorldTeam/CSNetwork.git', :branch=> 'main'
+    pod 'CSUtilities', :git => 'git@github.com:NeoWorldTeam/CSUtilities.git',:branch=> 'main'
+    pod 'DiscordSDK'
+    pod 'Quick', '~> 2.2.0'
+    pod 'Nimble', '~> 10.0.0'
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+    pod 'Nimble-Snapshots' , '~> 9.4.0'
+  end
+end

@@ -1,0 +1,116 @@
+PODS:
+  - Alamofire (5.7.1)
+  - AuthManagerKit (0.1.0):
+    - CSBaseView
+    - CSNetwork
+  - CSBaseView (0.1.0):
+    - CSUtilities
+    - SnapKit
+  - CSNetwork (0.1.0):
+    - Moya (~> 15.0.0)
+    - Moya/RxSwift (~> 15.0.0)
+    - ObjectMapper (~> 4.2.0)
+  - CSUtilities (0.1.0):
+    - IQKeyboardManagerSwift
+    - ProgressHUD
+    - SnapKit
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - iOSSnapshotTestCase (8.0.0):
+    - iOSSnapshotTestCase/SwiftSupport (= 8.0.0)
+  - iOSSnapshotTestCase/Core (8.0.0)
+  - iOSSnapshotTestCase/SwiftSupport (8.0.0):
+    - iOSSnapshotTestCase/Core
+  - IQKeyboardManagerSwift (6.5.11)
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - Moya/RxSwift (15.0.0):
+    - Moya/Core
+    - RxSwift (~> 6.0)
+  - Nimble (10.0.0)
+  - Nimble-Snapshots (9.4.0):
+    - Nimble-Snapshots/Core (= 9.4.0)
+  - Nimble-Snapshots/Core (9.4.0):
+    - iOSSnapshotTestCase (~> 8.0)
+    - Nimble
+  - ObjectMapper (4.2.0)
+  - ProgressHUD (13.6.2)
+  - Quick (2.2.1)
+  - RxSwift (6.5.0)
+  - SnapKit (5.6.0)
+
+DEPENDENCIES:
+  - AuthManagerKit (from `../`)
+  - "CSBaseView (from `git@github.com:NeoWorldTeam/CSBaseView.git`, branch `main`)"
+  - "CSNetwork (from `git@github.com:NeoWorldTeam/CSNetwork.git`, branch `main`)"
+  - "CSUtilities (from `git@github.com:NeoWorldTeam/CSUtilities.git`, branch `main`)"
+  - FBSnapshotTestCase (~> 2.1.4)
+  - Nimble (~> 10.0.0)
+  - Nimble-Snapshots (~> 9.4.0)
+  - Quick (~> 2.2.0)
+
+SPEC REPOS:
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - Alamofire
+    - FBSnapshotTestCase
+    - iOSSnapshotTestCase
+    - IQKeyboardManagerSwift
+    - Moya
+    - Nimble
+    - Nimble-Snapshots
+    - ObjectMapper
+    - ProgressHUD
+    - Quick
+    - RxSwift
+    - SnapKit
+
+EXTERNAL SOURCES:
+  AuthManagerKit:
+    :path: "../"
+  CSBaseView:
+    :branch: main
+    :git: "git@github.com:NeoWorldTeam/CSBaseView.git"
+  CSNetwork:
+    :branch: main
+    :git: "git@github.com:NeoWorldTeam/CSNetwork.git"
+  CSUtilities:
+    :branch: main
+    :git: "git@github.com:NeoWorldTeam/CSUtilities.git"
+
+CHECKOUT OPTIONS:
+  CSBaseView:
+    :commit: 612b1b759e7194995f1657b3f62ada8e40c0065d
+    :git: "git@github.com:NeoWorldTeam/CSBaseView.git"
+  CSNetwork:
+    :commit: f976dd793caa436b65d4c8dcda6ef7162d7f2fa2
+    :git: "git@github.com:NeoWorldTeam/CSNetwork.git"
+  CSUtilities:
+    :commit: e50e0e6d98622981ff439dbcafbdd25a1f1a32c1
+    :git: "git@github.com:NeoWorldTeam/CSUtilities.git"
+
+SPEC CHECKSUMS:
+  Alamofire: 0123a34370cb170936ae79a8df46cc62b2edeb88
+  AuthManagerKit: 470cd46cdad0b2ad538a4ee82a9f4542b561fa9d
+  CSBaseView: f2ad39ed45337d705b7565772bd70a9ecb346c32
+  CSNetwork: 9b92566b73fd83abf613dca93ac2a120a11845d3
+  CSUtilities: e4de34e15d9cc67970b5ca5893a06f0e660bdabf
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  iOSSnapshotTestCase: a670511f9ee3829c2b9c23e6e68f315fd7b6790f
+  IQKeyboardManagerSwift: c7955c0bdbf7b2eb29bb7daaa44e3d90f55a9a85
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  Nimble: 5316ef81a170ce87baf72dd961f22f89a602ff84
+  Nimble-Snapshots: ef281b908c604f78c8313587e25ea92c8ab513d7
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  ProgressHUD: 355915c8f033e626788fa9b0d99d06e8691595ab
+  Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+
+PODFILE CHECKSUM: ec75cd12298ff1f6d9fb56b4b1f8dd26819c5c1a
+
+COCOAPODS: 1.11.3
